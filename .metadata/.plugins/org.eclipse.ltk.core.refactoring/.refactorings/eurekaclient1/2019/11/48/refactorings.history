@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.slokam.eureka.client.one&apos; to &apos;com.neo.eureka.client.one&apos;&#x0D;&#x0A;- Original project: &apos;eurekaclient1&apos;&#x0D;&#x0A;- Original element: &apos;eurekaclient1/src/main/java/com.slokam.eureka.client.one&apos;&#x0D;&#x0A;- Renamed element: &apos;eurekaclient1/src/main/java/com.neo.eureka.client.one&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.slokam.eureka.client.one&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java&lt;com.slokam.eureka.client.one" name="com.neo.eureka.client.one" qualified="false" references="true" stamp="1575014249197" textual="false" version="1.0"/>
+</session>

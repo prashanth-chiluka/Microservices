@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.slokam.server&apos; to &apos;com.neo.server&apos;&#x0D;&#x0A;- Original project: &apos;eurekaserver&apos;&#x0D;&#x0A;- Original element: &apos;eurekaserver/src/main/java/com.slokam.server&apos;&#x0D;&#x0A;- Renamed element: &apos;eurekaserver/src/main/java/com.neo.server&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.slokam.server&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java&lt;com.slokam.server" name="com.neo.server" qualified="false" references="true" stamp="1575012855379" textual="false" version="1.0"/>
+</session>

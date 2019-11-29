@@ -1,0 +1,103 @@
+{
+	"info": {
+		"_postman_id": "3fcaf036-c695-44fa-a578-eacc815ce9d6",
+		"name": "Oauth2 - Microservices",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Data",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer  eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NzUwMTc3NjQsInVzZXJfbmFtZSI6Imd1ZXN0IiwiYXV0aG9yaXRpZXMiOlsiUk9MRV9VU0VSIl0sImp0aSI6ImM0YTYyYmJmLTg5YTEtNDRjMS1iODEyLTJjNGRlYzU5ZGE1ZiIsImNsaWVudF9pZCI6InNlcnZpY2UtYWNjb3VudC0xIiwic2NvcGUiOlsicmVzb3VyY2Utc2VydmVyLXJlYWQiLCJyZXNvdXJjZS1zZXJ2ZXItd3JpdGUiXX0.cMy3yHThHXWtYTqQB-PK5v6PBZGnvaEvGTppYog07VB6wg_wquXpDCVnU1W3a7m3Lzk7ikBpvKa-NeVg34R2C-DO_xCkMHX4q6H_XboZLM1VIO8Z6xQ8g7GQj8OHL3TvRjqReXN1YMG4hhlQaFxSpqHhSCEZ8c0mjlqKoOyagB2JAkzE1wA6hGF1yUij4LyOfQ34l3NZz1H60VhXEfm4ScEY_wxNKg9rTVOOUE_mfejQTCew4iFq_oEWF3wLGQ6Wiej_vxz3eUT7mNKxTxX_7ytkGfL6zqlDqv-4nJmt6aYgbdTwGW5njS9q_vDbad3gFK2XOY9GZcig1PMCnkUNOw",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8989/auth/getData",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8989",
+					"path": [
+						"auth",
+						"getData"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Oauth2 Token Generation",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "service-account-1-secret",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "service-account-1",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8989/auth/oauth/token?username=guest&password=guest123&grant_type=password",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8989",
+					"path": [
+						"auth",
+						"oauth",
+						"token"
+					],
+					"query": [
+						{
+							"key": "username",
+							"value": "guest"
+						},
+						{
+							"key": "password",
+							"value": "guest123"
+						},
+						{
+							"key": "grant_type",
+							"value": "password"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

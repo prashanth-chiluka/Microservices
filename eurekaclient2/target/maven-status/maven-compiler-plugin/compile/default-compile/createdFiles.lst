@@ -1,0 +1,9 @@
+com\neo\eureka\client\two\Client2Controller.class
+com\neo\eureka\client\two\FeignClientTestImpl.class
+com\neo\eureka\client\two\DataOfData.class
+com\neo\eureka\client\two\TestController.class
+com\neo\eureka\client\two\IFeignClientTest.class
+com\neo\eureka\client\two\Data.class
+com\neo\eureka\client\two\Client1ResourceFallBackImpl.class
+com\neo\eureka\client\two\Application.class
+com\neo\eureka\client\two\Client1Resource.class

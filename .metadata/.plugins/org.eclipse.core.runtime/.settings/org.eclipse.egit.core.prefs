@@ -1,0 +1,4 @@
+GitRepositoriesView.GitDirectories=D\:\\Prashanth\\Microservices\\eurekaserver\\.git;D\:\\Prashanth\\Microservices\\zuul\\.git;D\:\\Prashanth\\Microservices\\eurekaclient1\\.git;
+GitRepositoriesView.GitDirectories.relative=eurekaserver\\.git;zuul\\.git;eurekaclient1\\.git;
+core_autoIgnoreDerivedResources=false
+eclipse.preferences.version=1
